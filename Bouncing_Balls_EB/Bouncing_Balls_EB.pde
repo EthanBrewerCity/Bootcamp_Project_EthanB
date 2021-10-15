@@ -17,8 +17,8 @@ void setup()
   size (700, 350); //creates screen and balls along with position and speed
   position1 = new PVector(100, 100);
   position2 = new PVector(400, 100);
-  velo1 = new PVector(random(-2.5, -1.8), -1.8);
-  velo2 = new PVector(random(1.8, 2.5), 1.8);
+  velo1 = new PVector(1.8,1.8);
+  velo2 = new PVector(-1.8,1.8);
   grav = new PVector(0, 0.3);
   frameRate(60);
   r = 173;
